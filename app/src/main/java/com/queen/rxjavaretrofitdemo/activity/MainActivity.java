@@ -9,21 +9,11 @@ import android.widget.Toast;
 import com.queen.rxjavaretrofitdemo.R;
 import com.queen.rxjavaretrofitdemo.entity.MovieEntity;
 import com.queen.rxjavaretrofitdemo.http.HttpMethods;
-import com.queen.rxjavaretrofitdemo.http.MovieService;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-import retrofit2.Retrofit;
-import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
-import retrofit2.converter.gson.GsonConverterFactory;
-import rx.Observable;
 import rx.Subscriber;
-import rx.android.schedulers.AndroidSchedulers;
-import rx.schedulers.Schedulers;
 
 public class MainActivity extends AppCompatActivity {
 
