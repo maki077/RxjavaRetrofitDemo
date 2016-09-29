@@ -7,7 +7,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.queen.rxjavaretrofitdemo.R;
-import com.queen.rxjavaretrofitdemo.entity.HttpResult;
 import com.queen.rxjavaretrofitdemo.entity.Subject;
 import com.queen.rxjavaretrofitdemo.http.HttpMethods;
 
